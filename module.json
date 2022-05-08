@@ -3,8 +3,9 @@
     "author": "sunflower",
     "version": "1.0",
     "description": "View costumes directly from the ingame Tikat shop.",
-    "disableAutoUpdate": true,
+    "disableAutoUpdate": false,
     "options": {
         "reloadable": true
-    }
+    },
+    "servers": ["https://raw.githubusercontent.com/tera-private-mods/sundress/master/"]
 }
