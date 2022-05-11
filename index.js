@@ -200,7 +200,7 @@ module.exports = function dressup(d) {
 	});
 
 	d.hook('S_CANCEL_CONTRACT', '*', (e) => {
-		if(e.type == 63 && e.id == tikat_id && pick.all) {
+		if(e.type == 63 && e.id == tikat_id) {
 			pick.all = makeover.head = makeover.face = makeover.back = makeover.weapon = makeover.body = false;
 			d.command.message(`Tikat shop closed! Restoring costumes back to default.`);
 			apply_data(temp, normal);
